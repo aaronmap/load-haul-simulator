@@ -1,6 +1,7 @@
 # Load & Haul Simulator
 
 A Python-based discrete event simulation for open pit mining operations. This tool simulates truck and shovel interactions, shift logic, and dispatching to forecast production and costs.
+Right now more of a toy than a tool.
 
 ## Usage
 
