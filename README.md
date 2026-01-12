@@ -8,7 +8,7 @@ Right now more of a toy than a tool.
 Run the simulation from the command line:
 
 ```bash
-python LHSimulatorDispatch.py
+python LHSimulatorDispatch.py go 1
 
 
 === Simulation Setup: 28 Shifts (336 Hours) ===
