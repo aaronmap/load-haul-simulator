@@ -1,0 +1,19 @@
+# Python junk
+__pycache__/
+*.py[cod]
+venv/
+
+# Simulation Outputs
+*.csv
+*.log
+*.png
+LHSimulator.py
+LHSimulatorWeekly.py
+
+# Windows junk:
+Thumbs.db
+
+# Editor backups and swap files
+*~
+*.swp
+*.un~
