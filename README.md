@@ -1,3 +1,4 @@
+# ***** Migragted to Codeberg and will be deleted by January 30, 2026 *****
 # Load & Haul Simulator
 
 A Python-based discrete event simulation for open pit mining operations using simpy. This tool simulates truck and shovel interactions, shift logic, and dispatching to forecast production and costs.
