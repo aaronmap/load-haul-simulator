@@ -1,7 +1,7 @@
 # Load & Haul Simulator
 
-A Python-based discrete event simulation for open pit mining operations. This tool simulates truck and shovel interactions, shift logic, and dispatching to forecast production and costs.
-Right now more of a toy than a tool.
+A Python-based discrete event simulation for open pit mining operations using simpy. This tool simulates truck and shovel interactions, shift logic, and dispatching to forecast production and costs.
+*_Right now more of a toy than a tool.*
 
 ## Usage
 
@@ -9,8 +9,8 @@ Run the simulation from the command line:
 
 ```bash
 python LHSimulatorDispatch.py go 1
-
-
+```
+```text
 === Simulation Setup: 28 Shifts (336 Hours) ===
 
 === GENERATING PM PLAN (Scope: 336 Hours) ===
@@ -79,3 +79,22 @@ Shovel Fleet       450.0      303,917.4             0.16
  Truck Fleet       210.0    1,426,982.2             0.77
 
 ================================================================================
+```
+<details>
+<summary>Click to view Debugging Logs</summary>
+<br>
+
+<img width="100%" alt="shift_007_debug" src="https://github.com/user-attachments/assets/77323b87-ceb9-4f88-bdcc-2abbcf73c487" />
+<br><br>
+
+<img width="100%" alt="shift_009_debug" src="https://github.com/user-attachments/assets/3cee1ac9-18ac-4bda-ac60-efb67aa6bb35" />
+<br><br>
+
+<img width="100%" alt="shift_011_debug" src="https://github.com/user-attachments/assets/cdd2dd52-ed00-4fb8-bd69-cb28bf67d801" />
+<br><br>
+
+```text
+ERROR: Connection timeout
+RETRY: Attempting to reconnect...
+SUCCESS: Connected to haul-system-01
+```
